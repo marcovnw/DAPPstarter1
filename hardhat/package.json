@@ -3,5 +3,6 @@
   "devDependencies": {
     "@nomicfoundation/hardhat-toolbox": "^5.0.0",
     "hardhat": "^2.22.18"
-  }
+  }, "scripts": {
+    "deploy": "npx hardhat ignition deploy ./ignition/modules/Lock.ts --network localhost"}
 }
